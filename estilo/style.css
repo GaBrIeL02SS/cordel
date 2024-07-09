@@ -63,17 +63,34 @@ section{
     font-size: 2vw;
 }
 
+section p{
+    padding-bottom: 2em;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.845);
+}
+
 .normal{
     background-color: white;
     color: black;
 }
 
 .imagem{
-    background-color: black;
     color: white;
 }
 
 .imagem p{
-    background-color: gray;
     width: 400px;
+    background-color: rgba(0, 0, 0, 0.244);
+}
+
+#img01{
+    background-image:url(../imagens/background001.jpg);
+    background-attachment: fixed;
+    background-position: right center;
+    background-size: cover;
+}
+
+#img02{
+    background-image: url(../imagens/background002.jpg);
+    background-attachment: fixed;
+    background-size: cover;
 }
